@@ -3,6 +3,7 @@ package BuscaBinaria;
 public class BuscaBinariaRecursiva {
     public static void main(String[] args){
         int array[] = {1, 4, 45, 54, 6, 2, 76, 44, 78, 90}; //aqui está dado o array de valores a serem percorridos.
+    //Para ordenação do vetor Arrays.sort(array);    
         int elemento = 2; //Aqui está dado o elemento que busco dentro do meu conjunto índices no array
         int resultado = buscaBinariaRecursiva(array, elemento); //o valor do índice será armazenado nesta variável
         
